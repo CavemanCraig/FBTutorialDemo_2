@@ -26,12 +26,6 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-      <dependency>
-        <groupId>com.google.code.gson</groupId>
-        <artifactId>gson</artifactId>
-        <version>2.1</version>
-        <scope>test</scope>
-      </dependency>
     </dependencies>
   </dependencyManagement>
   <dependencies>
@@ -75,6 +69,12 @@
       <groupId>org.jboss.arquillian.junit</groupId>
       <artifactId>arquillian-junit-container</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.1</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
   <repositories>
